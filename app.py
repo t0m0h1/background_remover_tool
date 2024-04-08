@@ -15,7 +15,7 @@ preprocess = transforms.Compose([
 ])
 
 # Load your image
-image = cv2.imread('images/input_image.jpg')
+image = cv2.imread('images/1.JPG')
 
 # Preprocess the image
 input_tensor = preprocess(image)
